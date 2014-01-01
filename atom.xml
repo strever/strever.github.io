@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Strever Fang's Blog]]></title>
+  <link href="http://blog.shareproject.cn/atom.xml" rel="self"/>
+  <link href="http://blog.shareproject.cn/"/>
+  <updated>2014-01-02T01:22:25+08:00</updated>
+  <id>http://blog.shareproject.cn/</id>
+  <author>
+    <name><![CDATA[Strever Fang]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Welcome]]></title>
+    <link href="http://blog.shareproject.cn/blog/2014/01/01/welcome/"/>
+    <updated>2014-01-01T14:37:35+08:00</updated>
+    <id>http://blog.shareproject.cn/blog/2014/01/01/welcome</id>
+    <content type="html"><![CDATA[<p>I really appreciate your valuable time for reading this POST.
+It&rsquo;s my great pleasure.
+and I&rsquo;ll be very happy if you would send me your feedback when you&rsquo;ve finished reeading each POST.
+No matter goods or bads.</p>
+
+<p>Thanks a lot.</p>
+]]></content>
+  </entry>
+  
+</feed>

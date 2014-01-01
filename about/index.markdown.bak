@@ -5,13 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Strever Fang's Blog</title>
+  <title>About - Strever Fang's Blog</title>
   <meta name="author" content="Strever Fang">
 
   
-  <meta name="description" content="I really appreciate your valuable time for reading this POST.
-It&rsquo;s my great pleasure.
-and I&rsquo;ll be very happy if you would send me your &hellip;">
+  <meta name="description" content="About Jan 1st, 2014 Jan 1st, 2014 Tweet Comments Please enable JavaScript to view the comments powered by Disqus. Recent Posts Welcome GitHub Repos &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +18,7 @@ and I&rsquo;ll be very happy if you would send me your &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://blog.shareproject.cn">
+  <link rel="canonical" href="http://blog.shareproject.cn/about/index.markdown.bak">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Strever Fang's Blog" type="application/atom+xml">
@@ -65,19 +63,32 @@ and I&rsquo;ll be very happy if you would send me your &hellip;">
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article role="article">
   
-  
-  
-    <article>
-      
   <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/01/01/welcome/">Welcome</a></h1>
-    
-    
+    <h1 class="entry-title">About</h1>
+    <p class="meta">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-01T14:45:00+08:00" pubdate data-updated="true">Jan 1<span>st</span>, 2014</time></p>
+  </header>
+  
+  
+  
+    <footer>
       <p class="meta">
         
+        
 
 
 
@@ -89,35 +100,33 @@ and I&rsquo;ll be very happy if you would send me your &hellip;">
   
 
 
-<time datetime="2014-01-01T14:37:35+08:00" pubdate data-updated="true">Jan 1<span>st</span>, 2014</time>
-        
-           | <a href="/blog/2014/01/01/welcome/#disqus_thread"
-             data-disqus-identifier="http://blog.shareproject.cn/blog/2014/01/01/welcome/">Comments</a>
+<time datetime="2014-01-01T14:45:00+08:00" pubdate data-updated="true">Jan 1<span>st</span>, 2014</time>
         
       </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I really appreciate your valuable time for reading this POST.
-It&rsquo;s my great pleasure.
-and I&rsquo;ll be very happy if you would send me your feedback when you&rsquo;ve finished reeading each POST.
-No matter goods or bads.</p>
-
-<p>Thanks a lot.</p>
+      
+        <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://blog.shareproject.cn/about/index.markdown.bak" data-via="streverf" data-counturl="http://blog.shareproject.cn/about/index.markdown.bak" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
 </div>
-  
-  
 
-
-    </article>
+      
+    </footer>
   
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
+  </section>
+
+</div>
+
 <aside class="sidebar">
   
     <section>
@@ -134,7 +143,7 @@ No matter goods or bads.</p>
 <section>
   <h1>GitHub Repos</h1>
   <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   
   <a href="https://github.com/Strever">@Strever</a> on GitHub
@@ -176,6 +185,7 @@ No matter goods or bads.</p>
   
 </aside>
 
+
     </div>
   </div>
   <footer role="contentinfo"><p>
@@ -190,7 +200,10 @@ No matter goods or bads.</p>
       var disqus_shortname = 'strever';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://blog.shareproject.cn/about/index.markdown.bak';
+        var disqus_url = 'http://blog.shareproject.cn/about/index.markdown.bak';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
