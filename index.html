@@ -9,9 +9,7 @@
   <meta name="author" content="Strever Fang">
 
   
-  <meta name="description" content="I really appreciate your valuable time for reading this POST.
-It&rsquo;s my great pleasure.
-and I&rsquo;ll be very happy if you would send me your &hellip;">
+  <meta name="description" content="Ubuntu 下常用命令 第一篇博文不知道写什么，随便写一些自己常用到的 Shell 命令,顺便熟练一下MarkDown语法。 常用命令 //分屏显示 display the file more //对目录加上表示符号“/” ls -p //逐页查看，more的升级版本,less is more &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -60,6 +58,7 @@ and I&rsquo;ll be very happy if you would send me your &hellip;">
 <ul class="main-navigation">
   <li><a href="/">Blog</a></li>
   <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
 </ul>
 
 </nav>
@@ -67,6 +66,160 @@ and I&rsquo;ll be very happy if you would send me your &hellip;">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/01/02/ubuntu-shell-command/">Ubuntu Shell Command</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-02T01:30:40+08:00" pubdate data-updated="true">Jan 2<span>nd</span>, 2014</time>
+        
+           | <a href="/blog/2014/01/02/ubuntu-shell-command/#disqus_thread"
+             data-disqus-identifier="http://blog.shareproject.cn/blog/2014/01/02/ubuntu-shell-command/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h1>Ubuntu 下常用命令</h1>
+
+<p>第一篇博文不知道写什么，随便写一些自己常用到的 <strong>Shell 命令</strong>,顺便熟练一下MarkDown语法。</p>
+
+<h2>常用命令</h2>
+
+<p>//分屏显示 display the file</p>
+
+<blockquote><p><code>more</code></p></blockquote>
+
+<p>//对目录加上表示符号“/”</p>
+
+<blockquote><p><code>ls -p</code></p></blockquote>
+
+<p>//逐页查看，more的升级版本,less is more</p>
+
+<blockquote><p><code>less</code></p></blockquote>
+
+<p>/正序display the file</p>
+
+<blockquote><p><code>cat</code></p></blockquote>
+
+<p>//逆序display the file</p>
+
+<blockquote><p><code>tac</code></p></blockquote>
+
+<p>//创建新文件</p>
+
+<blockquote><p><code>touch [filename]</code></p></blockquote>
+
+<p>//创建硬链接，同一文件</p>
+
+<blockquote><p><code>cp -l</code></p></blockquote>
+
+<p>//创建软链接，快捷方式</p>
+
+<blockquote><p><code>cp -s</code></p></blockquote>
+
+<p>//display 从开始到第<em>num</em>行</p>
+
+<blockquote><p><code>head -[num]</code></p></blockquote>
+
+<p>//display 从结尾到倒数第[num]行</p>
+
+<blockquote><p><code>tail -[num]</code></p></blockquote>
+
+<p>//开机自启动</p>
+
+<blockquote><p><code>chkconfig [service] on</code></p></blockquote>
+
+<p>//查看ALSA驱动版本</p>
+
+<blockquote><p><code>alsactl -v</code></p></blockquote>
+
+<p>//process查看</p>
+
+<blockquote><p><code>ps</code></p></blockquote>
+
+<p>//实时process查看</p>
+
+<blockquote><p><code>top</code></p></blockquote>
+
+<p>//检查 mysqld 进程是否已经开启</p>
+
+<blockquote><p><code>pgrep mysqld</code></p></blockquote>
+
+<p>//查找已安装包中的qq-for-wine</p>
+
+<blockquote><p><code>dpkg -l | grep qq-for-wine</code></p></blockquote>
+
+<p>//挂载sdb1到MTP目录下</p>
+
+<blockquote><p><code>mount -t vfat /dev/sdb1 /media/mtp</code></p></blockquote>
+
+<p>//挂载*.iso到mnt</p>
+
+<blockquote><p><code>mount -t iso9660 -o loop *.iso mnt</code></p></blockquote>
+
+<p>//查看磁盘使用情况</p>
+
+<blockquote><p><code>df --human</code></p></blockquote>
+
+<p>//查看文件类型</p>
+
+<blockquote><p><code>file</code></p></blockquote>
+
+<p>// 查看文件状态信息</p>
+
+<blockquote><p><code>stat</code></p></blockquote>
+
+<p>//vsftpd:</p>
+
+<blockquote><p>   <code>service vsftpd start</code></p></blockquote>
+
+<p>//sshd：</p>
+
+<blockquote><p>  <code>service sshd start</code></p></blockquote>
+
+<p>//iptable：</p>
+
+<blockquote><p><code>service iptables stop</code></p></blockquote>
+
+<p>//查找文件</p>
+
+<blockquote><p><code>find -name</code></p></blockquote>
+
+<p>//系统默认使用哪个java版本：</p>
+
+<blockquote><p><code>which javac</code></p></blockquote>
+
+<h2>常用软件</h2>
+
+<pre><code>    sudo apt-get install rar vlc vlc-plugin-pulse cheese compizconfig-settings-manager cairo-dock gimp uget aria2
+
+    sudo apt-get install eclipse vim vim-gtk emacs codeblocks build-essential gcc g++ mysql-server mysql-client php5-mysql
+</code></pre>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -99,10 +252,13 @@ and I&rsquo;ll be very happy if you would send me your &hellip;">
   </header>
 
 
-  <div class="entry-content"><p>I really appreciate your valuable time for reading this POST.
-It&rsquo;s my great pleasure.
-and I&rsquo;ll be very happy if you would send me your feedback when you&rsquo;ve finished reeading each POST.
-No matter goods or bads.</p>
+  <div class="entry-content"><p>I really appreciate your valuable time for reading this POST.</p>
+
+<p>It&rsquo;s my great pleasure.</p>
+
+<p>and I&rsquo;ll be very happy if you would send me your feedback when you&rsquo;ve finished reeading each POST.</p>
+
+<p>No matter goods or bads.</p>
 
 <p>Thanks a lot.</p>
 </div>
@@ -123,6 +279,10 @@ No matter goods or bads.</p>
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/01/02/ubuntu-shell-command/">Ubuntu Shell Command</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2014/01/01/welcome/">Welcome</a>
@@ -161,6 +321,28 @@ No matter goods or bads.</p>
 </section>
 
 
+<section>
+  <html xmlns:wb=“http://open.weibo.com/wb”>
+  <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+  <wb:follow-button uid="40434675" type="red_1" width="67" height="24" ></wb:follow-button>
+</section>
+<section>
+  <h1>新浪微博</h1>
+  <ul id="weibo">
+    <li>
+    <iframe 
+	width="100%" 
+	height="550" 
+	class="share_self"  
+	frameborder="0" 
+	scrolling="no" 
+	src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=40434675&verifier=90e9f3a2&dpc=1"></iframe>
+    </li>
+  </ul>
+  </section>
+
+
+
 
 <section class="googleplus">
   <h1>
@@ -180,7 +362,7 @@ No matter goods or bads.</p>
   </div>
   <footer role="contentinfo"><p>
   Copyright &copy; 2014 - Strever Fang -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+  <span class="credit">Powered by <a href="http://shareproject.cn">Strever</a> and <a href="http://octopress.org">Octopress</a></span>
 </p>
 
 </footer>

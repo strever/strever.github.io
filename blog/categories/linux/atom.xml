@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Strever Fang's Blog]]></title>
-  <link href="http://blog.shareproject.cn/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Linux | Strever Fang's Blog]]></title>
+  <link href="http://blog.shareproject.cn/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://blog.shareproject.cn/"/>
   <updated>2014-01-02T03:44:34+08:00</updated>
   <id>http://blog.shareproject.cn/</id>
@@ -134,23 +134,6 @@
 
     sudo apt-get install eclipse vim vim-gtk emacs codeblocks build-essential gcc g++ mysql-server mysql-client php5-mysql
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Welcome]]></title>
-    <link href="http://blog.shareproject.cn/blog/2014/01/01/welcome/"/>
-    <updated>2014-01-01T14:37:35+08:00</updated>
-    <id>http://blog.shareproject.cn/blog/2014/01/01/welcome</id>
-    <content type="html"><![CDATA[<p>I really appreciate your valuable time for reading this POST.</p>
-
-<p>It&rsquo;s my great pleasure.</p>
-
-<p>and I&rsquo;ll be very happy if you would send me your feedback when you&rsquo;ve finished reeading each POST.</p>
-
-<p>No matter goods or bads.</p>
-
-<p>Thanks a lot.</p>
 ]]></content>
   </entry>
   
